@@ -1,0 +1,24 @@
+{
+  "name": "gitea-quay-connector",
+  "version": "1.0.0",
+  "description": "This is middleware that will proxy gitea post data into a format that quay will be able to consume consistently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "chai": "",
+    "mocha": "",
+    "request": ""
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "axios": "",
+    "body-parser": "",
+    "express": ""
+  },
+  "keywords": [],
+  "author": "Azusa Pacific University",
+  "license": "MIT"
+}
